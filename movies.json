@@ -1,0 +1,22 @@
+[
+    {
+        "title": "lion noir",
+        "year": "2007",
+        "genre": "action"
+    },
+    {
+        "title": "le scorpion",
+        "year": "2000",
+        "genre": "action"
+    },
+    {
+        "title": "le retour",
+        "year": "2001",
+        "genre": "religion"
+    },
+    {
+        "title": "le mystere",
+        "year": "2020",
+        "genre": "religion"
+    }
+]
