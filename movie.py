@@ -35,7 +35,10 @@ class Movie:
     @classmethod
     def remove_from_movies(cls, title):
         movies = cls._get_movies()
-        movies = [m for m in movies if m["title"] != "title"]
+        print ("Titre a supprimer:", title)
+        print ("Avant: ", movies)
+        movies = [m for m in movies if m["title"].strip().lower() != title.strip().lower()]
+        print ("Apres : ", movies)
         cls._write_movies(movies)
     
 
